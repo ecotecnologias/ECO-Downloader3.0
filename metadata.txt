@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=ECO-Downloder3.0
+qgisMinimumVersion=3.0
+description=This tool facilitates the acquisition of data available at MSWEP (Beck et al. 2017). 
+version=3.0
+author=ECOTECNOLOGIAS
+email=ecoplugin@gmail.com
+
+about=This tool facilitates the acquisition of data available at MSWEP (Beck et al. 2017). The plugin was developed by the Research Group on Hydro Environmental Modeling and Ecotechnologies at Universidade Federal de Santa Maria in order to give a spatial visualization and automate the download process facilitating the hydrologic studies.
+
+tracker=https://github.com/
+repository=https://github.com/ecotecnologias/ECO-Downloader3.0
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
